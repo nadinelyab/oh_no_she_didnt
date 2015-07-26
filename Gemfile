@@ -33,6 +33,8 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # gem 'capistrano-rails', group: :development
 gem 'twitter-bootstrap-rails'
 
+gem 'bootstrap-sass'
+
 gem 'twitter-text'
 
 group :development, :test do
