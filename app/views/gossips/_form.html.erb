@@ -1,0 +1,43 @@
+<% if @gossip.errors.any? %>
+<div id="error_explanation">
+  <h2>
+    <%= pluralize(@gossip.errors.count, "error") %> prohibited
+    this gossip from being saved:
+  </h2>
+  <ul>
+    <% @gossip.errors.full_messages.each do |msg| %>
+      <li><%= msg %></li>
+    <% end %>
+  </ul>
+</div>
+<% end %>
+  
+<%= form_for @gossip do |f| %>
+<p>
+	<%= f.label :celebrity_name %><br>
+	<%= f.text_field :celebrity_name %>
+</p>
+<p>
+	<%= f.label :title %><br>
+	<%= f.text_field :title %>
+</p>
+<p>
+	<%= f.label :author %><br>
+	<%= f.text_field :author %>
+</p>
+<p>
+	<%= f.label :date_published %><br>
+	<%= f.text_field :date_published %>
+</p>
+<p>
+	<%= f.label :gossip_scale %><br>
+	<%= f.select :gossip_scale, ['Select a rating',1, 2, 3, 4, 5, 6,7, 8, 9, 10]%>
+</p>
+<p>
+	<%= f.label :story %><br>
+	<%= f.text_field :story %>
+</p>
+<p>
+	<%= f.submit %>
+</p>
+<% end %>

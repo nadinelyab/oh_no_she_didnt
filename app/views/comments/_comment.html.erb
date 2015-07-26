@@ -1,0 +1,17 @@
+<div class="comments">
+	<p>
+	  <strong>Commenter:</strong>
+	  <%= comment.commenter %>
+	</p>
+	 
+	<p>
+	  <strong>Text:</strong>
+	  <%= comment.text %>
+	</p>
+</div>
+<p>
+  <%= link_to 'Destroy Comment', [comment.gossip, comment],
+               method: :delete,
+               data: { confirm: 'Are you sure?' } %>
+</p>
+

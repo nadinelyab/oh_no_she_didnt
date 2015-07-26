@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  celebrity_name: MyString
+  title: MyString
+  author: MyString
+  date_published: MyString
+  gossip_scale: 1
+
+two:
+  celebrity_name: MyString
+  title: MyString
+  author: MyString
+  date_published: MyString
+  gossip_scale: 1

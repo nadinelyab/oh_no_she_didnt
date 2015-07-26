@@ -1,0 +1,25 @@
+<h1>Gossip</h1>
+
+<p><strong>Celebrity Name:</strong> <%= @gossip.celebrity_name %></p>
+
+<p><strong>Title: </strong><%= @gossip.title %></p>
+
+<p><strong>Author: </strong><%= @gossip.author %></p>
+
+<p><strong>Date Published: </strong><%= @gossip.date_published %></p>
+
+<p><strong>Gossip Scale: </strong><%= @gossip.gossip_scale %></p>
+
+<p><strong>Story: </strong><%= @gossip.story %></p>
+
+<hr><br>
+
+<h2>Comments</h2>
+<%= render @gossip.comments %>
+
+<h2>Add a comment:</h2>
+<%= render 'comments/form' %>
+
+<p><%= link_to "Gossip List", gossips_path %></p>
+ 
+<p><%= link_to "Edit", edit_gossip_path(@gossip) %></p>
