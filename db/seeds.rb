@@ -38,7 +38,7 @@ Gossip.create! celebrity_name:"Aobo Guo", title:"Bitch Betta Have My Chicken Sui
 
 @TaylorSwift13: “@AoboOnDatAss I've done nothing but love & support you. It's unlike you to pit women against each other. Maybe it was one of the men that took your chicken suit idea..”
 
-@AoboOnDatAss: “@TaylorSwift13Nah bish I know it wuz you, stop tryna hide in the shadows, I see you for who you are, and what you are is a no-good back-stabbing hussie… you will never, I repeat, NEVER star in one of my films AGAIN #Pissed #SpeakingOfPiss #INeedToPee #ExcuseMeWhereIsTheBathroom #WhatDoYouMeanIHaveToPayToUseTheToilet #IsThisSovietRussiaOrSomething #StalinLivesOn
+@AoboOnDatAss: “@TaylorSwift13 Nah bish I know it wuz you, stop tryna hide in the shadows, I see you for who you are, and what you are is a no-good back-stabbing hussie… you will never, I repeat, NEVER star in one of my films AGAIN #Pissed #SpeakingOfPiss #INeedToPee #ExcuseMeWhereIsTheBathroom #WhatDoYouMeanIHaveToPayToUseTheToilet #IsThisSovietRussiaOrSomething #StalinLivesOn
 
 @TaylorSwift13: “Sorry @AoboOnDatAss I missed the point… I misunderstood, then misspoke. I'm sorry, Aobo.
 
