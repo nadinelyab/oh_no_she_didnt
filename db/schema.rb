@@ -13,6 +13,9 @@
 
 ActiveRecord::Schema.define(version: 20150725183705) do
 
+  # These are extensions that must be enabled in order to support this database
+  enable_extension "plpgsql"
+
   create_table "comments", force: :cascade do |t|
     t.string   "commenter"
     t.string   "text"
@@ -21,7 +24,7 @@ ActiveRecord::Schema.define(version: 20150725183705) do
     t.integer  "gossip_id"
   end
 
-  add_index "comments", ["gossip_id"], name: "index_comments_on_gossip_id"
+  add_index "comments", ["gossip_id"], name: "index_comments_on_gossip_id", using: :btree
 
   create_table "gossips", force: :cascade do |t|
     t.string   "celebrity_name"
@@ -34,4 +37,5 @@ ActiveRecord::Schema.define(version: 20150725183705) do
     t.string   "story"
   end
 
+  add_foreign_key "comments", "gossips"
 end
