@@ -1,0 +1,27 @@
+<h1>Listing Gossip</h1>
+
+<%= link_to 'New gossip', new_gossip_path %>
+<table>
+  <tr>
+    <th>Celebrity Name</th>
+    <th>Title</th>
+    <th>Author</th>
+    <th>Date Published</th>
+    <th>Gossip Scale </th>
+  </tr>
+ 
+  <% @gossips.each do |gossip| %>
+    <tr>
+      <td><%= gossip.celebrity_name %></td>
+      <td><%= gossip.title %></td>
+      <td><%= gossip.author %></td>
+      <td><%= gossip.date_published%></td>
+      <td><%= gossip.gossip_scale%></td>
+      <td><%= link_to 'Show', gossip_path(gossip) %></td>
+      <td><%= link_to 'Edit', edit_gossip_path(gossip) %></td>
+      <td><%= link_to 'Destroy', gossip_path(gossip),
+              method: :delete,
+              data: { confirm: 'Are you sure?' } %></td>
+    </tr>
+  <% end %>
+</table>
